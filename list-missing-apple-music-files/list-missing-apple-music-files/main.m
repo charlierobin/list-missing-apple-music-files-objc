@@ -64,7 +64,7 @@ int main(int argc, const char * argv[])
         }
         else
         {
-            NSString * path = [NSMutableString stringWithUTF8String:argv[1]];
+            NSString * path = [NSString stringWithUTF8String:argv[1]];
             
             NSDictionary * music = [NSDictionary dictionaryWithContentsOfFile:path];
             NSDictionary * tracks = [music valueForKey:@"Tracks"];

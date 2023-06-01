@@ -8,7 +8,7 @@ If you run this app in the Terminal with no arguments, it tries to connect to yo
 
 It then goes over all the tracks in the library and checks whether or not they have a `Location`.
 
-If they don’t (which means they are displayed in the Music browser window with a grey warning exclamation mark, and the Music app asks you if you want to try to locate them when you try and play the,) then their details are printed to `stdout`.
+If they don’t (which means they are displayed in the Music browser window with a grey warning exclamation mark, and the Music app asks you if you want to try to locate them when you try and play them) then their details are printed to `stdout`.
 
 If the track does have a `Location` then the path is checked to make sure that there is actually something there.
 
